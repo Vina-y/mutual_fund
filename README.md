@@ -35,7 +35,7 @@ The API follows modular URL routing, where each application or folder has its ow
 - **POST** `/api/v1/users/login` - Login with an existing user.
 
 
-### Funds
+### Funds (Bearer Token is required)
 
 - **GET** `/api/v1/fund/fund-name` - Get all fund name for dropdown.
 - **GET** `/api/v1/fund/open-scheme/mutual-fund?mutual_fund_family=selected_fund_name_from_dropdown Eg: mutual_fund_family=Aditya Birla Sun Life Mutual Fund` - Get all the open scheme funds of selected mutual_fund_family
