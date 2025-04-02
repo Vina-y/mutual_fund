@@ -29,6 +29,6 @@ class FundName:
                     unique_mutual_fund_families = sorted(set(entry['Mutual_Fund_Family'] for entry in funds_details ))
                     mutual_fund_families = [{"fund_family":entry} for entry in unique_mutual_fund_families]
 
-            return True, mutual_fund_families, "retrived successfully"
+            return True, mutual_fund_families, "fun name retrived successfully"
         except Exception as e:
             return False, None, {"error": str(e)}
