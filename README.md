@@ -56,7 +56,7 @@ The API follows modular URL routing, where each application or folder has its ow
    SECRET_KEY= set your own secret key
    DATABASE_URL = "sqlite://db.sqlite3"
    ALGORITHM = "HS256"
-   RAPID_API_KEY = set ur own rapi api key by signinng in
+   RAPID_API_KEY = set ur own rapid api key by signinng in
    HOST = "latest-mutual-fund-nav.p.rapidapi.com"
 4. Run project locally:
    ```sh
