@@ -20,6 +20,7 @@ The API follows modular URL routing, where each application or folder has its ow
 - FastAPI
 - SQLlite
 - JWT
+- tortoise-orm
 
 ### Data Storage:
 - SQLlite
