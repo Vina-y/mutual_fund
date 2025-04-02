@@ -48,3 +48,17 @@ The API follows modular URL routing, where each application or folder has its ow
 1. Clone the repository:
    ```sh
    https://github.com/Vina-y/mutual_fund.git
+2. Install the requirements file:
+    ```sh
+   pip install -r requirements.txt
+3. Set .env file :
+    ```sh
+   SECRET_KEY= set your own secret key
+   DATABASE_URL = "sqlite://db.sqlite3"
+   ALGORITHM = "HS256"
+   RAPID_API_KEY = set ur own rapi api key by signinng in
+   HOST = "latest-mutual-fund-nav.p.rapidapi.com"
+4. Run project locally:
+   ```sh
+   uvicorn app.main:app --host 0.0.0.0 --port 5000 --reload
+    
