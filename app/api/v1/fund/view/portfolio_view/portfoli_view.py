@@ -8,8 +8,8 @@ from app.utility.response import make_response
 
 class PortfolioView:
     @staticmethod
-    async def user_portfolio(request: Request,porfolio_id:int):
-        success,res,msg = await PortfolioController.portfolio(request,porfolio_id)
+    async def user_portfolio(request: Request):
+        success,res,msg = await PortfolioController.portfolio(request)
         if not success:
             return  make_response(data={"success":"false","error":msg}, status=400)
         
